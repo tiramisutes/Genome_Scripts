@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Genome Scripts
 
 You can use the [editor on GitHub](https://github.com/tiramisutes/Genome_Scripts/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
