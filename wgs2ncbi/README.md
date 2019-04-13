@@ -1,4 +1,4 @@
-> A modify version of [naturalis/wgs2ncbi](https://github.com/naturalis/wgs2ncbi)
+> A modified version of [naturalis/wgs2ncbi](https://github.com/naturalis/wgs2ncbi)
 - Add `Organism Name` to <wgs2ncbi.ini>;
 - Modify <WGS2NCBI.pm> and <Config.pm> to output more resulted files;
 - Modify the parameters of `tbl2asn` command to 
