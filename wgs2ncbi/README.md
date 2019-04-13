@@ -1,4 +1,3 @@
----
 > A modify version of [naturalis/wgs2ncbi](https://github.com/naturalis/wgs2ncbi)
 - Add `Organism Name` to <wgs2ncbi.ini>;
 - Modify <WGS2NCBI.pm> and <Config.pm> to output more resulted files;
@@ -6,7 +5,6 @@
 ```
 my $command = "$TBL2ASN -p $INDIR -r $OUTDIR -t $TMPL -i $fafiles -a r10ks -j \"[organism=Piper nigrum][genotype=Reyin1][tech=wgs][country=China]\" -V vbgt -k c -Z $DISCREP -N 1.0 -L T -n $ORNAME > /dev/null 2>&1";
 ```
----
 
 WGS2NCBI - toolkit for preparing genomes for submission to NCBI
 ===============================================================
