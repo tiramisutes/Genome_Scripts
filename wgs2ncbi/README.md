@@ -5,6 +5,18 @@
    ```
    my $command = "$TBL2ASN -p $INDIR -r $OUTDIR -t $TMPL -i $fafiles -a r10ks -j \"[genotype=Reyin1][tech=wgs][country=China]\" -V vbgt -k c -Z $DISCREP -N 1.0 -L T -n $ORNAME > /dev/null 2>&1";
    ```
+The output files 👇
+```
+combined_1-5000.tbl
+combined_1-5000.fsa
+combined_1-5000.sqn
+combined_1-5000.gbf
+combined_1-5000.val
+combined_1-5000.t2g
+errorsummary.val
+discrep.txt
+```
+
 ---
 
 WGS2NCBI - toolkit for preparing genomes for submission to NCBI
