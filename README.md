@@ -15,3 +15,4 @@ cd /home/zpxu/software/wgs2ncbi
 ./script/wgs2ncbi convert -conf ./share/wgs2ncbi.ini
 ./script/wgs2ncbi compress -conf ./share/wgs2ncbi.ini
 ```
+### 3. 
