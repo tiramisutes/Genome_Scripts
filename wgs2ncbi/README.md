@@ -1,3 +1,4 @@
+A modify version of [naturalis/wgs2ncbi](https://github.com/naturalis/wgs2ncbi)
 WGS2NCBI - toolkit for preparing genomes for submission to NCBI
 ===============================================================
 
