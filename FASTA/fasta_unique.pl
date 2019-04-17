@@ -11,7 +11,7 @@ my $description =
     "\tprint the groups to STDERR.\n";
 my $usage = 
     "Usage:\n\t$0 [-h | --help] [FASTA file | -]\n".
-    "\n\tExample command: fasta_unique input.fas >unique.fas 2>unique.tab\n";
+    "\n\tExample command: fasta_unique.pl input.fa >unique.fa 2>unique.tab\n";
 my $options = 
     "Options:\n" .
     "\t-h | --help\n\t\tPrint the help message; ignore other arguments.\n" .
