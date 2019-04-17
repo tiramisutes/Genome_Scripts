@@ -15,4 +15,8 @@ cd /home/zpxu/software/wgs2ncbi
 ./script/wgs2ncbi convert -conf ./share/wgs2ncbi.ini
 ./script/wgs2ncbi compress -conf ./share/wgs2ncbi.ini
 ```
-### 3. 
+### 3. Remove duplicate sequence from FASTA format files (different IDs but the same sequence) [[FASTA](https://github.com/tiramisutes/Genome_Scripts/tree/master/FASTA)]
+```
+fasta_unique.pl input.fa >unique.fa 2>unique.tab
+removerep.pl input.fa output.fa
+```
