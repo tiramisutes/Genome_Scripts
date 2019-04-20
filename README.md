@@ -20,3 +20,8 @@ cd /home/zpxu/software/wgs2ncbi
 fasta_unique.pl input.fa >unique.fa 2>unique.tab
 removerep.pl input.fa output.fa
 ```
+### 4. Some gadget used to process the txt/csv format files [[TxtTools](https://github.com/tiramisutes/Genome_Scripts/tree/master/TxtTools)]
+#### Combine two files
+```
+python combine_files.py -f1 csv -f2 table -L gene -R GeneID -w right -o out.csv file1 file2
+```
