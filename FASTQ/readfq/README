@@ -1,0 +1,15 @@
+This is a simple tool to calculate reads number and total base count in FASTQ file. Modified from http://lh3lh3.users.sourceforge.net/parsefastq.shtml.
+
+Compile:
+```
+gcc -o kseq_fastq_base kseq_fastq_base.c -lz
+```
+Usage:
+```
+kseq_fastq_base [input.fq]
+```
+FASTQ files could be gzipped! ^_^.
+
+The statistic results would be printed on STDOUT.
+
+It could deal with ~4M reads (1G base) in less than 40 seconds, ~50M reads (14G base) in less than 5 minutes!!!
