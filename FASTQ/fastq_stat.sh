@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Usage: ./fastq_stat.sh AS285A_R1.clean.fastq AS285A_R2.clean.fastq
+
 fastq1=$1  #input 1
 fastq2=$2  #input 2
 readlength1=$(awk 'NR % 4 == 2 { s += length($1); t++} END {print s/t}' $fastq1) #calculate read length for fastq file 1
