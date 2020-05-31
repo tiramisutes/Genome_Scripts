@@ -25,3 +25,7 @@ removerep.pl input.fa output.fa
 ```
 python combine_files.py -f1 csv -f2 table -L gene -R GeneID -w right -o out.csv file1 file2
 ```
+### 5. average read length [[FASTQ]
+```
+./fastq_stat.sh AS285A_R1.clean.fastq AS285A_R2.clean.fastq
+```
